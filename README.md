@@ -2,4 +2,4 @@
 
 Deployed website: `tiantienten.github.io/pui-hw/`
 
-Repository link: `add the URL to this repository`
+Repository link: `https://github.com/tiantienten/pui-hw.git`
