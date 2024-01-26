@@ -5,4 +5,78 @@
     <meta charset="UTF-8">
     <link rel = "stylesheet" href = "stylesheet.css">
     <title>Product Detail Page</title>
-  </head>
+</head>
+
+<body>
+    <!--logo-->
+    <a href = "./gallery.html">
+      <img src = "../assets/logo/logo-01.svg" class = "logo">
+    </a>
+    <hr>
+    <!--end of logo-->
+
+
+    <!--navigation-->
+    <div class = "nav">
+      <div>
+        <a href = "./gallery.html" class = "noStyle cap highlight">
+          products
+      </a>
+      </div>
+      <div>
+        <a href = "./cart.html" class = "noStyle cap" > 
+          cart
+      </a> 
+      </div>
+    </div>
+    <!--end of navigation-->
+
+
+    <!--title-->
+    <div>
+      <p class = "title">
+        Original Cinnamon Roll
+      </p>
+    </div>
+    <!--end of title-->
+
+    <div>
+        <img src = "../assets/products/original-cinnamon-roll.jpg"  class = "galleryImg">
+        <p class = "description">
+            Customize our delicious, hand-made cinammon roll to your liking!
+        </p>
+    </div>
+
+    <div class = "selections">
+        <div class = "dropdown">
+            <div class = "dropdownTitle">Glazing:</div>
+            <div class ="dropdownContent">
+                <select name = "glazing">
+                    <option>Keep original</option>
+                    <option>Sugar Milk</option>
+                    <option>Vanilla Milk</option>
+                    <option>Double Chocolate</option>
+                </select>
+            </div>
+        </div>
+        
+    
+        <div class = "dropdown">
+            <div class = "dropdownTitle">Pack Size:</div>
+            <div class = "dropdownContent"> 
+                <select name = "quantity">
+                    <option>1</option>
+                    <option>3</option>
+                    <option>6</option>
+                    <option>12</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+    <div class = "buttonContainer">
+        <div> $ 2.49</div>
+        <button id = "addToCartBut">Add to Cart</button>
+    </div>
+</body>
+</html>

@@ -4,24 +4,18 @@
 }
 
 /*centers navigation tab and produce white spaces between lines*/
-div{
+div {
     display: block;
     text-align: center;
     margin-bottom: 30px;
 }
 
-/*uppercase the texts and remove underlines*/
-.cap {
-    text-transform: uppercase;
-    text-decoration: none;
-}
 
 /*Highlight texts*/
 .highlight {
     background-color: yellow;
     font-size: larger;
     font-weight: bold;
-    display: inline;
 }
 
 
@@ -31,3 +25,169 @@ div{
     font-size: 30px;
 }
 
+/*image gallery settings*/
+.galleryImg{
+    width: 400px;
+    height: 400px;
+    border: 3px solid black;
+}
+
+/*fonting tools for the overall website*/
+.font {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.noStyle {
+    text-decoration: none;
+}
+
+.cap {
+    text-transform: uppercase;
+}
+
+/*Hover to highlight and bold*/
+#originalCinnamonRollbox {
+    width: 33%;
+    margin: auto;
+    display: block;
+}
+
+#originalCinnamonRollbox:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+#appleCinnamonRollbox {
+    width: 33%;
+    margin: auto;
+    display: block;
+}
+
+#appleCinnamonRollbox:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+#raisinCinnamonRollbox {
+    width: 33%;
+    margin: auto;
+    display: block;
+}
+
+#raisinCinnamonRollbox:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+#walnutCinnamonRollbox {
+    width: 33%;
+    margin: auto;
+    display: block;
+}
+
+#walnutCinnamonRollbox:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+#doubleChocolateCinnamonRollbox {
+    width: 33%;
+    margin: auto;
+    display: block;
+}
+
+#doubleChocolateCinnamonRollbox:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+
+#strawberryCinnamonRollbox {
+    width: 33%;
+    margin: auto;
+    display: block;
+}
+
+#strawberryCinnamonRollbox:hover {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+/*dropdown style for future use*/
+
+.selections {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dropdown {
+    text-align: left;
+    margin:auto;
+}
+
+.dropdownTitle {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+
+/* future use
+.dropdownContent{
+    
+}
+*/
+
+/*shopping cart image*/
+.shoppingCartImg {
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+}
+
+.productInfo {
+    margin-bottom: 5px;
+}
+
+.shortHr {
+    width: 70%;
+    font-weight: bolder;
+}
+
+#addToCartBut {
+    background-color: yellow;
+    font-weight: bold;
+    font: 30px;
+    border: solid black;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+}
+
+#checkOutBut {
+    background-color: yellow;
+    font-weight: bold;
+    font: 30px;
+    border: solid black;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+}
+
+.buttonContainer {
+    font-weight: bold;
+    font: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 10px;
+}
