@@ -7,7 +7,7 @@
 div {
     display: block;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 
@@ -51,101 +51,33 @@ div {
 }
 
 /*Hover to highlight and bold*/
-#originalCinnamonRollbox {
-    width: 33%;
+#originalCinnamonRollbox, #appleCinnamonRollbox, #raisinCinnamonRollbox, #walnutCinnamonRollbox, #doubleChocolateCinnamonRollbox, #strawberryCinnamonRollbox {
+    width: 406px;
     margin: auto;
     display: block;
 }
 
-#originalCinnamonRollbox:hover {
+#originalCinnamonRollbox:hover, #appleCinnamonRollbox:hover, #raisinCinnamonRollbox:hover, #walnutCinnamonRollbox:hover, #doubleChocolateCinnamonRollbox:hover, #strawberryCinnamonRollbox:hover {
     background-color: yellow;
     font-weight: bold;
 }
 
 
-#appleCinnamonRollbox {
-    width: 33%;
-    margin: auto;
-    display: block;
-}
-
-#appleCinnamonRollbox:hover {
-    background-color: yellow;
-    font-weight: bold;
-}
-
-
-#raisinCinnamonRollbox {
-    width: 33%;
-    margin: auto;
-    display: block;
-}
-
-#raisinCinnamonRollbox:hover {
-    background-color: yellow;
-    font-weight: bold;
-}
-
-
-#walnutCinnamonRollbox {
-    width: 33%;
-    margin: auto;
-    display: block;
-}
-
-#walnutCinnamonRollbox:hover {
-    background-color: yellow;
-    font-weight: bold;
-}
-
-
-#doubleChocolateCinnamonRollbox {
-    width: 33%;
-    margin: auto;
-    display: block;
-}
-
-#doubleChocolateCinnamonRollbox:hover {
-    background-color: yellow;
-    font-weight: bold;
-}
-
-
-#strawberryCinnamonRollbox {
-    width: 33%;
-    margin: auto;
-    display: block;
-}
-
-#strawberryCinnamonRollbox:hover {
-    background-color: yellow;
-    font-weight: bold;
-}
 
 /*dropdown style for future use*/
 
+
 .selections {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 200px;
+    align-self: center;
 }
 
-.dropdown {
-    text-align: left;
-    margin:auto;
-}
 
 .dropdownTitle {
     font-size: 15px;
     margin-bottom: 5px;
 }
 
-
-/* future use
-.dropdownContent{
-    
-}
-*/
 
 /*shopping cart image*/
 .shoppingCartImg {
@@ -163,14 +95,16 @@ div {
     font-weight: bolder;
 }
 
+
+/*button setting*/
 #addToCartBut {
     background-color: yellow;
     font-weight: bold;
     font: 30px;
     border: solid black;
     align-items: center;
-    width: 200px;
-    height: 70px;
+    width: 150px;
+    height: 35px;
 }
 
 #checkOutBut {
@@ -179,8 +113,8 @@ div {
     font: 30px;
     border: solid black;
     align-items: center;
-    width: 200px;
-    height: 70px;
+    width: 150px;
+    height: 35px;
 }
 
 .buttonContainer {
@@ -190,4 +124,10 @@ div {
     justify-content: center;
     align-items: baseline;
     gap: 10px;
+}
+
+/*cost font style*/
+.cost {
+    font-size: 150%;
+    text-align: center;
 }
