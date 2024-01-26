@@ -1,3 +1,16 @@
-.logo{
+.logo {
     width: 400px;
 }
+
+.nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gallery {
+    background-color: yellow;
+    text-transform: capitalize;
+    font-size: larger;
+}
+
