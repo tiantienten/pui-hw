@@ -1,0 +1,33 @@
+/*logo size*/
+.logo {
+    width: 400px;
+}
+
+/*centers navigation tab and produce white spaces between lines*/
+div{
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*uppercase the texts and remove underlines*/
+.cap {
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/*Highlight texts*/
+.highlight {
+    background-color: yellow;
+    font-size: larger;
+    font-weight: bold;
+    display: inline;
+}
+
+
+/*slogan special font style setting*/
+.title {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
