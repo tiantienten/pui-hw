@@ -6,41 +6,44 @@
     <link rel = "stylesheet" href = "stylesheet.css">
     <title>Shopping Cart</title>
   </head>
-
   
   <body>
     <!--logo-->
-    <a href = "./index.html">
-      <img src = "../assets/logo/logo-01.svg" class = "logo">
-    </a>
-    <hr>
+    <div class = "topScreen">
+      <a href = "./index.html">
+        <img src = "../assets/logo/logo-01.svg" class = "logo">
+      </a>
     <!--end of logo-->
 
-
     <!--navigation-->
-    <div class = "nav">
-      <div>
-        <a href = "./index.html" class = "noStyle cap">
-          products
-      </a>
+    <!--product and cart tabs-->
+      <div class = "navigationTab">
+        <div class = "nav">
+          <div>
+            <a href = "./index.html" class = "noStyle cap highlight">
+              products
+            </a>
+          </div>
+          <div>
+            <a href = "./cart.html" class = "noStyle cap align" > 
+              cart
+              <div class = "badge">2</div>
+            </a> 
+          </div>
+        </div>
+    <!--end of product and cart tabs-->
+
+    <!--slogan-->
+        <div>
+          <hr>
+          <p class = "title">
+            Our hand-made cinnamon rolls
+          </p>
+        </div>
+    <!--end of slogan-->
       </div>
-      <div>
-        <a href = "./cart.html" class = "noStyle cap highlight" > 
-          cart
-      </a> 
-      </div>
-    </div>
     <!--end of navigation-->
-
-
-    <!--title-->
-    <div>
-      <p class = "title">
-        Shopping Cart
-      </p>
     </div>
-    <!--end of title-->
-</html>
 
 <div class = "checkOut">
   <img src = "../assets/products/original-cinnamon-roll.jpg"  class = "shoppingCartImg">
@@ -67,3 +70,5 @@
 <div class = "buttonContainer">
   <button id = "checkOutBut">Checkout</button>
 </div>
+</body>
+</html>

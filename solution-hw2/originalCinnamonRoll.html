@@ -4,49 +4,55 @@
   <head>
     <meta charset="UTF-8">
     <link rel = "stylesheet" href = "stylesheet.css">
-    <title>Product Detail Page</title>
+    <title>Original Cinnamon Roll Product Page</title>
   </head>
-
+  
   <body>
     <!--logo-->
-    <a href = "./index.html">
-      <img src = "../assets/logo/logo-01.svg" class = "logo">
-    </a>
-    <hr>
+    <div class = "topScreen">
+      <a href = "./index.html">
+        <img src = "../assets/logo/logo-01.svg" class = "logo">
+      </a>
     <!--end of logo-->
 
-
     <!--navigation-->
-    <div class = "nav">
-      <div>
-        <a href = "./index.html" class = "noStyle cap highlight">
-          products
-        </a>
+    <!--product and cart tabs-->
+      <div class = "navigationTab">
+        <div class = "nav">
+          <div>
+            <a href = "./index.html" class = "noStyle cap highlight">
+              products
+            </a>
+          </div>
+          <div>
+            <a href = "./cart.html" class = "noStyle cap align" > 
+              cart
+              <div class = "badge">2</div>
+            </a> 
+          </div>
+        </div>
+    <!--end of product and cart tabs-->
+
+    <!--slogan-->
+        <div>
+          <hr>
+          <p class = "title">
+            Our hand-made cinnamon rolls
+          </p>
+        </div>
+    <!--end of slogan-->
       </div>
-      <div>
-        <a href = "./cart.html" class = "noStyle cap" > 
-          cart
-        </a> 
-      </div>
-    </div>
     <!--end of navigation-->
-
-
-    <!--title-->
-    <div>
-      <h1 class = "title">
-        Original Cinnamon Roll
-      </h1>
     </div>
-    <!--end of title-->
 
-    <div>
-        <img src = "../assets/products/original-cinnamon-roll.jpg"  class = "galleryImg">
-        <p class = "description">
-            Customize our delicious, hand-made cinammon roll to your liking!
-        </p>
+    <div class = "productContainer"> <!--big product flex box-->
+        <img src = "../assets/products/original-cinnamon-roll.jpg"  class = "productImg">
+
+    <div class = "productInfo">
+      <div class = "description">
+        Customize our delicious, hand-made cinammon roll to your liking!
     </div>
-    <div class = "dropdownTitle">Glazing:</div>
+      <div class = "dropdownTitle">Glazing:</div>
     <div>
         <select class = "selections" id = "glazing">
             <option>Keep original</option>
@@ -69,8 +75,10 @@
         
 
     <div class = "buttonContainer">
-        <div> $ 2.49</div>
+        <div class = "price"> $ 2.49 </div>
         <button id = "addToCartBut">Add to Cart</button>
     </div>
+    </div>
+  </div>
   </body>
 </html>
