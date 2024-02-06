@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "stylesheet.css">
+    <title>Product Detail Page</title>
+  </head>
+
+  <body>
+    <!--logo-->
+    <a href = "./index.html">
+      <img src = "../assets/logo/logo-01.svg" class = "logo">
+    </a>
+    <hr>
+    <!--end of logo-->
+
+
+    <!--navigation-->
+    <div class = "nav">
+      <div>
+        <a href = "./index.html" class = "noStyle cap highlight">
+          products
+        </a>
+      </div>
+      <div>
+        <a href = "./cart.html" class = "noStyle cap" > 
+          cart
+        </a> 
+      </div>
+    </div>
+    <!--end of navigation-->
+
+
+    <!--title-->
+    <div>
+      <h1 class = "title">
+        Original Cinnamon Roll
+      </h1>
+    </div>
+    <!--end of title-->
+
+    <div>
+        <img src = "../assets/products/original-cinnamon-roll.jpg"  class = "galleryImg">
+        <p class = "description">
+            Customize our delicious, hand-made cinammon roll to your liking!
+        </p>
+    </div>
+    <div class = "dropdownTitle">Glazing:</div>
+    <div>
+        <select class = "selections" id = "glazing">
+            <option>Keep original</option>
+            <option>Sugar Milk</option>
+            <option>Vanilla Milk</option>
+            <option>Double Chocolate</option>
+        </select>
+    </div>
+        
+    
+    <div class = "dropdownTitle">Pack Size:</div>
+    <div>
+            <select class = "selections" id = "quantity">
+                <option>1</option>
+                <option>3</option>
+                <option>6</option>
+                <option>12</option>
+            </select>
+    </div>
+        
+
+    <div class = "buttonContainer">
+        <div> $ 2.49</div>
+        <button id = "addToCartBut">Add to Cart</button>
+    </div>
+  </body>
+</html>
