@@ -20,12 +20,12 @@
       <div class = "navigationTab">
         <div class = "nav">
           <div>
-            <a href = "./index.html" class = "noStyle cap highlight">
+            <a href = "./index.html" class = "noStyle cap">
               products
             </a>
           </div>
           <div>
-            <a href = "./cart.html" class = "noStyle cap align" > 
+            <a href = "./cart.html" class = "noStyle cap align highlight" > 
               cart
               <div class = "badge">2</div>
             </a> 
@@ -45,29 +45,42 @@
     <!--end of navigation-->
     </div>
 
-<div class = "checkOut">
-  <img src = "../assets/products/original-cinnamon-roll.jpg"  class = "shoppingCartImg">
-  <div class = "productInfo productName">Orginal Cinnamon Roll</div>
-    <div class = "productInfo glazing">Glazing: Keep original</div>
-    <div class = "productInfo quantity">Pack Size: 1</div>
-    <div class = "cost">$ 2.49</div>
+<div class = "checkOutBox"> <!--big flex box-->
+  <div class = "checkOutImg">
+    <img src = "../assets/products/original-cinnamon-roll.jpg"  class = "shoppingCartImg">
+    <div class = "remove">Remove</div>
+    <img src = "../assets/products/double-chocolate-cinnamon-roll.jpg"  class = "shoppingCartImg">
+    <div class = "remove">Remove</div>
+  </div>
+
+  <div class = "checkOutDescription">
+    <div class = "product">
+      <div class = "productInfo productName">Orginal Cinnamon Roll</div>
+      <div class = "productInfo glazing">Glazing: Keep original</div>
+      <div class = "productInfo quantity">Pack Size: 1</div>
+    </div>
+   
+    <div class = "product">
+      <div class = "productInfo productName">Double Chocolate Cinnamon Roll</div>
+      <div class = "productInfo glazing">Glazing: Sugar Milk</div>
+      <div class = "productInfo quantity">Pack Size: 6</div>
+    </div>
+  </div>
+
+  <div class="checkOutCost">
+    <div class = "productInfo cost">$ 2.49</div>
+    <div class = "productInfo cost">$ 27.49</div>
   </div>
 </div>
 
-<div class = "checkOut">
-  <img src = "../assets/products/double-chocolate-cinnamon-roll.jpg"  class = "shoppingCartImg">
-  <div class = "productInfo productName">Double Chocolate Cinnamon Roll</div>
-    <div class = "productInfo glazing">Glazing: Sugar Milk</div>
-    <div class = "productInfo quantity">Pack Size: 6</div>
-    <div class = "cost">$ 27.49</div>
-  </div>
-</div>
+
 <hr class = "shortHr">
 
-<div id = "totalCost">
-  Total: $ 29.94
+<div class = "totalCost">
+  <div>Total</div> 
+  <div>$ 29.94</div>
 </div>
-<div class = "buttonContainer">
+<div class = "checkOutButtonContainer">
   <button id = "checkOutBut">Checkout</button>
 </div>
 </body>

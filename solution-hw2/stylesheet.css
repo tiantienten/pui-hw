@@ -167,18 +167,11 @@
 }
 
 
-.productInfo {
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    margin-left: 60px;
-}
-
-
 .shortHr {
     width: 70%;
     font-weight: bolder;
+    border-top: 4px solid black;
+    margin-bottom: 10px;
 }
 
 .productContainer {
@@ -209,15 +202,74 @@
     height: 40px;
 }
 
+.checkOut {
+    display: block;
+    align-items: flex-start;
+}
+
+
+.checkOutImg{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.checkOutDescription {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkOutCost {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.product {
+    margin-top: 40px;
+    margin-bottom: 65px;
+}
+
+
+.productInfo {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin-left: 60px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+
+.checkOutBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+.remove {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 
 #checkOutBut {
     background-color: yellow;
     font-weight: bold;
-    font: 30px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
     border: solid black;
     align-items: center;
     width: 150px;
-    height: 35px;
+    height: 40px;
 }
 
 
@@ -234,6 +286,27 @@
 
 /*cost font style*/
 .cost {
-    font-size: 150%;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    margin-top: 90px;
+    margin-bottom: 150px;
+}
+
+.totalCost {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 600px;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 15%;
+}
+.checkOutButtonContainer {
+    font-weight: bold;
+    font-size: x-large;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 15%;
+    margin-top: 10px;
 }
