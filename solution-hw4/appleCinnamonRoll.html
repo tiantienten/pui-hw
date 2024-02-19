@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "stylesheet.css">
+    <script src = "rollsData.js" type = "text/javascript" defer></script>
+    <script src = "random-element.js" type = "text/javascript" defer></script>
+
+    <title>Apple Cinnamon Roll Product Page</title>
+  </head>
+  
+  <body>
+    <!--logo-->
+    <div class = "topScreen">
+      <a href = "./index.html">
+        <img src = "../assets/logo/logo-01.svg" class = "logo">
+      </a>
+    <!--end of logo-->
+
+    <!--navigation-->
+    <!--product and cart tabs-->
+      <div class = "navigationTab">
+        <div class = "nav">
+          <div>
+            <a href = "./index.html" class = "noStyle cap highlight">
+              products
+            </a>
+          </div>
+          <div>
+            <a href = "./cart.html" class = "noStyle cap align" > 
+              cart
+              <div class = "badge">2</div>
+            </a> 
+          </div>
+        </div>
+    <!--end of product and cart tabs-->
+
+    <!--slogan-->
+        <div>
+          <hr>
+          <p class = "title">
+            
+          </p>
+        </div>
+    <!--end of slogan-->
+      </div>
+    <!--end of navigation-->
+    </div>
+
+    <div class = "productContainer"> <!--big product flex box-->
+        <img src = ""  class = "productImg">
+
+    <div class = "productInfo">
+      <div class = "description">
+        Customize our delicious, hand-made cinammon roll to your liking!
+    </div>
+      <div class = "dropdownTitle">Glazing:</div>
+    <div>
+        <select class = "selections" id = "glaze">
+            <option>Keep Original</option>
+            <option>Sugar Milk</option>
+            <option>Vanilla Milk</option>
+            <option>Double Chocolate</option>
+        </select>
+    </div>
+        
+    
+    <div class = "dropdownTitle">Pack Size:</div>
+    <div>
+            <select class = "selections" id = "quantity">
+                <option>1</option>
+                <option>3</option>
+                <option>6</option>
+                <option>12</option>
+            </select>
+    </div>
+        
+
+    <div class = "buttonContainer">
+        <div class = "price" id = "priceDisplay"> $ 3.49 </div>
+        <button id = "addToCartBut">Add to Cart</button>
+    </div>
+    </div>
+  </div>
+  </body>
+</html>
+
