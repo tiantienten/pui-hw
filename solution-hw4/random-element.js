@@ -12,7 +12,7 @@ let packSizeOptions = {
     12: 10,
 };
 
-
+const cart = [];
 const queryString = window.location.search;
 const params = new URLSearchParams(queryString);
 const rollType = params.get('roll');
@@ -23,6 +23,14 @@ title.textContent = rollType + " Cinnamon Roll";
 const productImg = document.querySelector(".productImg");
 productImg.src = "../assets/products/" + ImageFile;
 
+class Roll {
+    constructor(rollType, rollGlazing, packSize, basePrice) {
+        this.type = rollType;
+        this.glazing =  rollGlazing;
+        this.size = packSize;
+        this.basePrice = basePrice;
+    }
+}
 
 
 let glazingDropdown = document.querySelector('#glaze');
@@ -47,5 +55,13 @@ function calculatePrice (){
 
 glazingDropdown.addEventListener("change", onDropDownChange);
 packSizeDropdown.addEventListener("change", onDropDownChange);
+
+
+function addToCart(){
+    let myRoll = new Roll(rollType, selectedGlazing, selectedQuantity, Price);
+    cart.push(myRoll);
+    console.log(cart);
+}
+
 calculatePrice();
 

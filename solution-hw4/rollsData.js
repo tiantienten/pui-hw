@@ -24,18 +24,3 @@ const rolls = {
         "imageFile": "strawberry-cinnamon-roll.jpg"
     }    
 };
-
-
-/*
-function updateURL(){
-    const queryString = window.location.search;
-
-    console.log(queryString);
-    
-    const params = new URLSearchParams(queryString);
-    
-    console.log(params);
-    
-    params.append("roll", flavor);
-}
-*/
