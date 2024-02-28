@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" href = "stylesheet.css">
+    <script src = "rollsData.js" type = "text/javascript" defer></script>
+    <script src = "cart.js" type = "text/javascript" defer></script>
+
+    <title>Shopping Cart</title>
+  </head>
+  
+  <body>
+    <!--logo-->
+    <div class = "topScreen">
+      <a href = "./index.html">
+        <img src = "../assets/logo/logo-01.svg" class = "logo">
+      </a>
+    <!--end of logo-->
+
+    <!--navigation-->
+    <!--product and cart tabs-->
+      <div class = "navigationTab">
+        <div class = "nav">
+          <div>
+            <a href = "./index.html" class = "noStyle cap">
+              products
+            </a>
+          </div>
+          <div>
+            <a href = "./cart.html" class = "noStyle cap align highlight" > 
+              cart
+              <div class = "badge">2</div>
+            </a> 
+          </div>
+        </div>
+    <!--end of product and cart tabs-->
+
+    <!--slogan-->
+        <div>
+          <hr>
+          <p class = "title">
+            Our hand-made cinnamon rolls
+          </p>
+        </div>
+    <!--end of slogan-->
+      </div>
+    <!--end of navigation-->
+    </div>
+
+<div class = "checkOutBox"> <!--big flex box-->
+  <template id = "productBoxTemplate">
+    <div class = "rollBox">
+      <div>
+        <img src = ""  class = "shoppingCartImg">
+        <div class = "removeBut">Remove</div>
+      </div>
+      <div>
+        <div class = "productInfo productName">placeholder for name</div>
+        <div class = "productInfo glazing">placeholder for glazing option</div>
+        <div class = "productInfo quantity">placeholder for size</div>
+      </div>
+      <div class = "productInfo cost">place holder for cost </div>
+    </div>
+    
+  </template>
+
+  <!--
+  <div class = "checkOutImg">
+    <img src = "../assets/products/original-cinnamon-roll.jpg"  class = "shoppingCartImg">
+    <div class = "remove">Remove</div>
+    <img src = "../assets/products/double-chocolate-cinnamon-roll.jpg"  class = "shoppingCartImg">
+    <div class = "remove">Remove</div>
+  </div>
+
+  <div class = "checkOutDescription">
+    <div class = "product">
+      <div class = "productInfo productName">Orginal Cinnamon Roll</div>
+      <div class = "productInfo glazing">Glazing: Keep original</div>
+      <div class = "productInfo quantity">Pack Size: 1</div>
+    </div>
+   
+    <div class = "product">
+      <div class = "productInfo productName">Double Chocolate Cinnamon Roll</div>
+      <div class = "productInfo glazing">Glazing: Sugar Milk</div>
+      <div class = "productInfo quantity">Pack Size: 6</div>
+    </div>
+  </div>
+
+  <div class="checkOutCost">
+    <div class = "productInfo cost">$ 2.49</div>
+    <div class = "productInfo cost">$ 27.49</div>
+  </div>
+</div>
+-->
+
+<hr class = "shortHr">
+
+<div class = "totalCost">
+  <div>Total</div> 
+  <div class = "total">$ 29.94</div>
+</div>
+<div class = "checkOutButtonContainer">
+  <button id = "checkOutBut">Checkout</button>
+</div>
+</body>
+</html>
